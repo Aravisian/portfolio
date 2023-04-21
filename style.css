@@ -1,8 +1,26 @@
+
 body {
-    background-image: linear-gradient(to bottom, #515151, #f0f0f0);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
 }
+
 .navbar {
     border-radius: 32px;
+    background-image: linear-gradient(to bottom, #515151, white);
+    border-top: 1px solid #161616;
+    border-right: 1px solid #161616;
+    border-bottom: 1px solid #717171;
+    border-left: 1px solid #161616;
+    box-shadow: inset 4px 3px 2px 1px rgba(0, 0, 0, 0.1);
+}
+p {
+    background: transparent;
+    color: white;
 }
